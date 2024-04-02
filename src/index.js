@@ -11,7 +11,7 @@ app.use(bodyParser.text());
 
 app.use('/api',apiRouter);
 app.get('/ping', (req, res) => {
-    return res.json({message : 'Problem service is alive'});
+    return res.json({message : 'service is alive'});
 })
 
 app.listen(PORT, () => {
